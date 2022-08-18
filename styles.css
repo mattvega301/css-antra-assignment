@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 1.5em;
+    justify-content: center;
+    width: 40%;
+
+}
+header ul li {
+    margin-right: 2em;
+}
+
+
+header ul li a:link, header ul li a:active, header ul li a:visited, header ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+main .title-bar {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: #c6bfbf;
+}
+
+main .title-bar .title-bar-sizing {
+    width: 75%;
+}
+
+main .content-bar {
+    display: flex;
+    justify-content: center;
+}
+
+main .content-bar .sizing-box {
+    display: flex;
+    width: 75%;
+}
+
+main .content-bar .sizing-box p{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b4d14;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .main-footer {
+    display: flex;
+    list-style-type: none;
+    margin-left: 5em;
+}
+
+footer .social-footer {
+    display: flex;
+    list-style-type: none;
+    margin-right: 5em;
+}
+
+footer a {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer a:link, footer a:active, footer a:visited, footer a:hover{
+    color: white;
+    text-decoration: none;
+}
